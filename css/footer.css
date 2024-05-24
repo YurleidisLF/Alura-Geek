@@ -1,0 +1,54 @@
+/*Estilos del footer*/
+
+.footer {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #ffccff, #00aaff);
+}
+
+.menu_iconos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.menu{
+    width: 40px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.menu_title {   
+    font-size: 26px;
+    margin-right: 10px;
+    color: rgb(219, 109, 186);
+    font-weight: bolder;
+}
+
+/*Estilos de la descripción del footer*/
+
+.descripcion{
+    height: auto; 
+    font-size: 18px;
+    padding: 10px;
+    color: #7f40c7;
+    font-weight: lighter;
+    
+}   
+
+.descri {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    
+}
+
+.Copyrigth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

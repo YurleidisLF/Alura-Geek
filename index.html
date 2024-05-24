@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Links de los archivos css-->
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/herader-main.css" />
+    <link rel="stylesheet" href="./css/cards.css" />
+    <link rel="stylesheet" href="./css/formulario.css" />
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/pagina-responsiva.css">
+    <link rel="icon" href="./assets/logo-titulo.png" />
+    <title>ALURA GEEK</title>
+  </head>
+  <body>
+    <!--Inicio del header-->
+    <header>
+        <div class="menu_logo_titulo">
+            <img class="menu_logo" src="./assets/logo.png" alt="Logo aluraGeek" />
+            <h1 class="menu_titulo">Alura Geek</h1>
+            <img class="menu_logo" src="./assets/logo-copia.png" alt="Logo aluraGeek" />
+        </div>
+    </header>        
+        <!--Inicio del main-->
+        <main class="container_principal">
+            <div class="video-background">
+                <video autoplay muted loop id="bg-video">
+                    <source src="./assets/fondo-main.mp4" type="video/mp4">
+                </video>
+            </div>
+            <section id="productos" data-product>
+                <div class="titulo">
+                   <h1>Mis Productos:</h1>
+                </div>
+                <!--Seccion de Cards-->
+                <section class="producto_lista" data-lista>
+                    <div class="card">
+                          <!-- Agrega más productos aquí -->
+                        <img class="product__card__img" src="https://m.media-amazon.com/images/I/61Fxozm26-L.__AC_SX300_SY300_QL70_FMwebp_.jpg" alt="Barra de ojos" alt="">
+                        <h3 class="product__name">Decoración artística de arena móvil para oficina, (marco negro de 7 pulgadas).</h3>
+                        <div class="product__card__body">
+                            <p class="product__price">$US 199.90</p>
+                            <button class="product__delete" data-id="1">🗑️</button>
+                        </div>
+                    </div>                                
+                </section>
+            </section>
+
+             <!-- Nueva sección para agregar productos -->
+        <section id="agregar_producto" class="agregar_producto">
+            <h1>Agregar Producto:</h1>
+            <form id="productoForm" action="" method="POST" data-form>
+                <p>Imagen del producto.</p>
+                <input data-name name="name" type="text" placeholder="Peluche"required>
+                <span class="error" id="nameError"></span>
+                <p>Precio del producto.</p>
+                <input data-price name="price" type="number" placeholder="US$ 000.00" required>
+                <span class="error" id="priceError"></span>
+                <p>URL de la Imagen del producto.</p>
+                <input data-image name="imagen" type="text" placeholder="https://m.media-amazon.jpg" required>
+                <span class="error" id="imageError"></span>
+                <div class="form_container_boton">
+                    <button type="submit" class="boton">Enviar</button>
+                    <button type="button" class="boton_limpiar">Limpiar</button> <!-- Cambiado a type="button" para prevenir enviar el formulario -->
+                </div>   
+            </form>
+        </section>
+       </main>  
+        <footer class="footer">
+            <div class="menu_iconos">
+                <img class="menu" src="./assets/logo.png" alt="Logo aluraGeek" />
+                <h1 class="menu_title">Alura Geek</h1>
+                <img class="menu" src="./assets/logo-copia.png" alt="Logo aluraGeek" />
+            </div>
+            <div class="descripcion">
+                <p class="descri">Desarrollado por: Yurleidis López.</p>
+                <p class="Copyrigth">© Alura Geek - Mayo del 2024</p>
+            </div>
+       </footer>
+        <script src="./js/mostarProducto.js" type="module"></script>
+       <script src="./js/crearProducto.js" type="module"></script>
+       <script src="./js/borrarProducto.js" type="module"></script>
+       <script src="./js/validandoFormulario.js" type="module"></script>
+    </body>
+</html>    

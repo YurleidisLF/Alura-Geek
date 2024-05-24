@@ -1,0 +1,94 @@
+/* Para tables*/
+
+@media  (max-width: 768px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    /* HEADER  */
+    header {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    /* Main */
+    .container_principal {
+        display: grid;
+        grid-template-columns: 1fr;
+        box-shadow: var(--box-shadow);
+        width: 100%;
+    }
+
+    .card{
+        width: 35%; 
+        height: 35vh;
+    }
+
+    .card img {
+        max-height: 180px;
+    }
+
+    .card-container--info {
+        font-size: 26px;
+    }
+
+    .delete-button {
+        font-size: 28px;
+    }
+
+    .agregar_producto {
+      margin: 18px;
+    }
+
+    .descripcion {
+        font-size: 20px;
+    }
+}
+
+/* Para Celulares */
+@media (max-width: 422px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+     /*Main*/
+    .card {
+        width: 60%;
+        height: 20%;
+        align-items: center;
+    }
+
+    .card-container--info {
+        font-size: 20px;
+
+    }
+
+    .lista_productos {
+        grid-row: 2;
+        width: 100%;
+    }
+
+    .delete-button{
+        font-size: 17px;
+    }
+ 
+    .agregar_producto{
+        width: 80%;
+        grid-row: 1;
+    }
+
+    /*Footer*/
+
+    .descripcion {
+        font-size: 17px;
+    }
+
+}
+

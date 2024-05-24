@@ -1,0 +1,76 @@
+/* Estilos de la sección para agregar productos */
+
+.agregar_producto {
+    text-align: center;
+    padding: 40px;
+    margin: 90px;
+    width: 55%;
+    max-height: 470px;
+    background-color: #ffffff;
+    border: 2px solid #22a8eb;
+    border-radius: 19px;
+  }
+  
+.agregar_producto h1 {
+    font-size: 24px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #212424;
+    margin-bottom: 20px;
+}
+  
+.agregar_producto form {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+p {
+    font-family: 'Lucida Sans';
+    font-size: 17px;
+    color: #773177;
+}
+  
+.agregar_producto input {
+    padding: 15px;
+    border: 2px solid #22a8eb;
+    border-radius: 15px;
+    font-size: 18px;
+    outline: none;
+}
+  
+.form_container_boton {
+    gap: 10px;
+    font-size: 10px;
+    display: flex;
+    justify-content: space-between;  
+}
+
+.boton_limpiar {
+    font-family: 'Lucida Sans';
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #9900ff;
+    color: #fafafa;
+    font-size: 17px;
+    cursor: pointer;
+}
+  
+.boton {
+    font-family: 'Lucida Sans';
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #00aaff;
+    color: #fafafa;
+    font-size: 17px;
+    cursor: pointer;
+}
+  
+.boton:hover {
+    color: #992b78;
+    font-size: 20px;
+}
+
+.boton_limpiar:hover {
+    color: #992b78;
+    font-size: 20px;
+}

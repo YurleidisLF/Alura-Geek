@@ -1,0 +1,88 @@
+{
+  "products": [
+    {
+      "name": "Parches de aloe vera para debajo de los ojos, 60 unidades.",
+      "price": "14.97",
+      "image": "https://m.media-amazon.com/images/I/61IrnE53opL._SX425_.jpg",
+      "id": "3"
+    },
+    {
+      "name": "Body de manga larga con doble forro para mujer, cuello en V profundo.",
+      "price": "16.98",
+      "image": "https://m.media-amazon.com/images/I/71zt0jyn6oL._AC_SY500_.jpg",
+      "id": "4"
+    },
+    {
+      "name": "Conjunto de ganchillo de dos piezas para mujer, de verano casual.",
+      "price": "27.99",
+      "image": "https://m.media-amazon.com/images/I/71BsFTak7jL._AC_SY500_.jpg",
+      "id": "5"
+    },
+    {
+      "name": "Paquete de 2 camisetas sin mangas para mujer, cuello redondo.",
+      "price": "10.49",
+      "image": "https://m.media-amazon.com/images/I/81vGa+wlB1L._AC_SX425_.jpg",
+      "id": "6"
+    },
+    {
+      "name": "Mini vestido para mujer, para entrenamiento, vestido de verano de moda.",
+      "price": "33.99",
+      "image": "https://m.media-amazon.com/images/I/61lRcJkZToL._AC_SY500_.jpg",
+      "id": "7"
+    },
+    {
+      "name": "Paquete de 2 pantalones cortos deportivos de entrenamiento para hombre .",
+      "price": "24.70",
+      "image": "https://m.media-amazon.com/images/I/71vXZaomntL._AC_SX522_.jpg",
+      "id": "8"
+    },
+    {
+      "name": "Camisas de punto de manga corta con botones para hombre.",
+      "price": "31.99",
+      "image": "https://m.media-amazon.com/images/I/81O2SWAO6WL._AC_SX385_.jpg",
+      "id": "9"
+    },
+    {
+      "name": "Sudadera con capucha para hombre, de manga larga, de punto sólido .",
+      "price": "34.99",
+      "image": "https://m.media-amazon.com/images/I/912avsuBEdL._AC_SX385_.jpg",
+      "id": "10"
+    },
+    {
+      "name": "Lámpara de pared de luna moderna enchufe con control remoto.",
+      "price": "87.99",
+      "image": "https://m.media-amazon.com/images/I/71AWB659qQL._AC_SX679_.jpg",
+      "id": "11"
+    },
+    {
+      "name": "Lámpara de pared LED blanca cálida con control remoto inalámbrico.",
+      "price": "39.99",
+      "image": "https://m.media-amazon.com/images/I/611TiftIq2L._AC_SX679_.jpg",
+      "id": "12"
+    },
+    {
+      "name": "Hamaca de almacenamiento de juguetes, peluches con luz led.",
+      "price": "15.99",
+      "image": "https://m.media-amazon.com/images/I/71q6TchhMYL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
+      "id": "13"
+    },
+    {
+      "name": "Lámpara de mesa de tulipán de nube de flores de simulación.",
+      "price": "16.99",
+      "image": "https://m.media-amazon.com/images/I/61M+JC9cOSL._AC_SX342_SY445_.jpg",
+      "id": "13"
+    },
+    {
+      "id": "8154",
+      "name": "Silla reclinable para computadora, reposapiés ajustable y reclinable.",
+      "price": "245.29",
+      "image": "https://m.media-amazon.com/images/I/71y3SwRJkQL.__AC_SX300_SY300_QL70_FMwebp_.jpg"
+    },
+    {
+      "id": "2929",
+      "name": "Juego de 2 almohadas de tamaño Queen, almohadas Queen de espuma viscoelástica triturada.",
+      "price": "34.99",
+      "image": "https://m.media-amazon.com/images/I/81vowBO1VrL.__AC_SY300_SX300_QL70_FMwebp_.jpg"
+    }
+  ]
+}

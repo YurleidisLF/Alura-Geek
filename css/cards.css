@@ -1,0 +1,67 @@
+/*Estilos de la sección de cards*/
+
+.producto_lista {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 80%; 
+    margin: 30px;
+    max-height: 540px;
+    overflow-y: auto;      
+}
+
+.card {
+    font-size: 17px;
+    width: 200px;
+    height: 50vh;
+    background-color: #22a8eb;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: relative;
+    border: 7px dashed #22a8eb; 
+}
+
+.card:hover{
+    font-size: 16px;
+    background-color: #ca20f5;
+    border: 5px dashed #eb1d9c;
+}
+
+.card img {
+    width: 100%;
+    max-height: 200px;
+    height: auto;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.card-container--info {
+    padding: 14px;
+    color: #161616;
+    font-size: 18px;
+}
+
+.product__card__body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product__price {
+    margin: 10px;
+    color: #812c16;
+    padding: 7px;
+    
+}
+
+.product__delete {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.product__delete:hover {
+    color: red;
+}
