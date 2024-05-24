@@ -1,7 +1,8 @@
-## Alura Geek ##
+# Alura Geek #
 
-![image](https://github.com/YurleidisLF/Alura-Geek/assets/158238015/9496ea0b-f21e-4e19-975b-5175c35719f6)
-![image](https://github.com/YurleidisLF/Alura-Geek/assets/158238015/cdef9b4d-2617-4630-b68c-f0ec241457bf)
+![image](https://github.com/YurleidisLF/Alura-Geek/assets/158238015/5778cb0d-db60-4fda-b6ce-c7c97ca1eb19)
+![image](https://github.com/YurleidisLF/Alura-Geek/assets/158238015/e89a66c4-60c5-4031-8897-abf9b2c922b2)
+
 
 
 
