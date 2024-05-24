@@ -18,19 +18,19 @@ Esta disponible para Tables de 768 de ancho, Celular de 422 de ancho
 2. Haz click en el botón "Enviar", para agregar el producto a la página web.
 3. El producto aparecerá al final de todos los productos.
 
-# Limpiar formulario 
+##  Limpiar formulario ## 
 
 1. Haz click en "Limpiar", para limpiar los campos de las casillas del formulario.
 
-### Estructura del proyecto ###
+## Estructura del proyecto ##
 
- ### assets/ Contiene todas la imagenes usadas en el proyecto.
- ### css/ Contiene todos los estilos usados en el proyecto.
- ### js/ Contiene todos los archivos JavaScript usados en el proyecto.
- ### index.html/ Contiene la estructura principal del proyecto.
- ### db.json/ Contiene todos los productos agregados por el formulario
+ # assets/ Contiene todas la imagenes usadas en el proyecto.
+ # css/ Contiene todos los estilos usados en el proyecto.
+ # js/ Contiene todos los archivos JavaScript usados en el proyecto.
+ # index.html/ Contiene la estructura principal del proyecto.
+ # db.json/ Contiene todos los productos agregados por el formulario
 
-# Ver Página web.
+##  Ver Página web .## 
 
 
 ### Desarrollado por Yurleidis López ###
