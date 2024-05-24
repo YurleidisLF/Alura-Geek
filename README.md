@@ -24,11 +24,11 @@ Esta disponible para Tables de 768 de ancho, Celular de 422 de ancho
 
 ## Estructura del proyecto ##
 
- # assets/ Contiene todas la imagenes usadas en el proyecto.
- # css/ Contiene todos los estilos usados en el proyecto.
- # js/ Contiene todos los archivos JavaScript usados en el proyecto.
- # index.html/ Contiene la estructura principal del proyecto.
- # db.json/ Contiene todos los productos agregados por el formulario
+ 1. assets/ Contiene todas la imagenes usadas en el proyecto.
+ 2. css/ Contiene todos los estilos usados en el proyecto.
+ 3. js/ Contiene todos los archivos JavaScript usados en el proyecto.
+ 4. index.html/ Contiene la estructura principal del proyecto.
+ 5. db.json/ Contiene todos los productos agregados por el formulario
 
 ##  Ver Página web .## 
 
